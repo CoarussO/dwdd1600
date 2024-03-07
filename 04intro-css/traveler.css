@@ -1,0 +1,150 @@
+/*Text Type*/
+
+body {font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    
+}
+/*Header Title H1 etc*/
+header{
+background-color:rgb(211,211,211);
+padding: 1rem 2vw;
+}
+
+#Title{
+    color: #f2420a;
+
+}
+
+#Page{
+    color: #f08d00;
+    margin:0;
+
+}
+
+#Fire {
+    color: #f21e0f;
+
+}
+
+#Moto{
+color: #f21e0f;
+margin: 0;
+letter-spacing: 0.5px;
+font-weight:500;
+font-style:italic;
+}
+#MA{
+    color: blue;
+
+}
+
+#MH{
+    color: blue;
+
+}
+
+#MA:hover{
+    color: red;
+
+}
+
+#MH:hover{
+    color: red;
+
+}
+
+/*Start of Nav*/
+nav{
+    background-color: rgb(255, 230, 0);
+}
+nav ul{
+margin: 0;
+padding: 0 2vw;
+list-style-type: none;
+}
+
+nav a{
+color: blue;
+font-weight: 600;
+display: block;
+padding: 0.25rem 0.83rem
+}
+
+nav a:hover {
+color: red
+
+}
+
+/*Start of Main*/
+main {
+padding: 1rem 2vw;
+
+}
+
+main h1{
+color:#f08d00
+
+}
+
+main h2{
+color: #ef6300;
+margin-bottom: 0.2rem;
+}
+
+main p{
+color: darkgrey;
+margin: 0 0 0.3rem 0;
+
+}
+
+main ol{
+    padding: 0.3rem 3.5vw;
+background-color: rgb(255, 230, 0);
+
+}
+
+main ul{
+list-style-type: circle;
+
+}
+
+main ul li{
+line-height: 125%;
+margin-bottom: 0.5rem;
+font-size: 1rem;
+
+}
+
+main a{
+color: blue;
+
+}
+
+main a:hover{
+color: red;
+
+}
+
+main address{
+    font-style: italic;
+    background-color: #ff800d;
+    padding: 0.5rem;
+    width: 7.5rem;
+    border: 2px solid blue;
+    border-radius: 1rem;
+
+}
+
+main h3{
+    color: #ff3615;
+}
+/*Start of Footer*/
+footer{
+    background-color: lightblue;
+    text-align:center;
+    color: #d90166;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
