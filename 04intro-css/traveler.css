@@ -55,27 +55,37 @@ font-style:italic;
 
 }
 
+
 /*Start of Nav*/
 nav{
     background-color: rgb(255, 230, 0);
 }
 nav ul{
 margin: 0;
-padding: 0 2vw;
+padding: 0 1vw;
 list-style-type: none;
+display:flex;
 }
 
 nav a{
+font-size:1.25rem;
+text-decoration:none;
 color: blue;
 font-weight: 600;
 display: block;
-padding: 0.25rem 0.83rem
+padding: 1rem;
 }
-
 nav a:hover {
-color: red
-
+    color: red
+    
 }
+
+nav li.active a{
+    color:rgb(255, 230, 0);
+    background-color:blue;
+    
+}
+
 
 /*Start of Main*/
 main {
@@ -118,7 +128,7 @@ font-size: 1rem;
 }
 
 main a{
-color: blue;
+    color: blue;
 
 }
 
@@ -142,9 +152,6 @@ main h3{
 
 }
 
-#Summary{
-    /*to be continued*/
-}
 /*Start of Footer*/
 footer{
     background-color: lightblue;
