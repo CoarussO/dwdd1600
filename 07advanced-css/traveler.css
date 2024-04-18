@@ -68,7 +68,7 @@ font-style:italic;
 
 /*Start of Nav*/
 /* baby screens*/
-@media only screen and (max-width: 995.95px) {
+@media only screen and (max-width: 800.95px) {
 nav ul {
         margin: 0;
         padding: 0 2vw;
@@ -106,13 +106,15 @@ nav .active a {
 } /*end of the media query*/
 
 /* HUGE screens*/
-@media only screen and (min-width: 996px) {
+@media only screen and (min-width: 801px) {
 nav ul{
-margin: 0;
-padding: 0 1vw;
-list-style-type: none;
 display:flex;
+flex-wrap:wrap;
+margin: 0;
+padding: 0vw 2vw;
+list-style-type: none;
 text-align:center;
+    
 }
 
 nav a{
@@ -122,6 +124,8 @@ color: blue;
 font-weight: 600;
 display: block;
 padding: 1rem;
+text-align:center;
+
 }
 nav a:hover {
     color: red
@@ -144,8 +148,11 @@ nav li.active a{
 
 nav{
     background-color: rgb(255, 230, 0);
+    width:auto;
 }
-
+nav li{
+    margin:auto;
+}
 /*Start of Main*/
 
 .weldingcool{
