@@ -106,13 +106,13 @@ nav a {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    color: lightblue;
+    color: blue;
     
     }
 
 nav .active a {
-    color:lightblue;
-    background-color:lightblue;
+    color:blue;
+    background-color:blue;
     color: white;
         
     }
@@ -143,7 +143,7 @@ text-align:center;
 nav a{
 font-size:1.25rem;
 text-decoration:none;
-color: lightblue;
+color: blue;
 font-weight: 600;
 display: block;
 padding: 1rem;
@@ -187,7 +187,7 @@ margin-bottom: 0.2rem;
 }
 
 main p{
-color: darkgrey;
+color: black;
 margin: 0 0 0.3rem 0;
 
 }
@@ -278,10 +278,15 @@ textarea{
 }
 
 #package {
+    align-content: center;
     border: 2px solid black;
     border-radius: 1rem;
     width: 100%;
     padding: 2vw 0vw 2vw 1vw;
+    
+    height:auto;
+   
+    
     
 }
 
